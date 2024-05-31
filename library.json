@@ -1,0 +1,25 @@
+{
+  "name": "LinkedList",
+  "version": "0.1.0",
+  "description": "LinkedList Library",
+  "keywords": "LinkedList",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/jaster-prj/LinkedList.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Sam Grove"
+    },
+    {
+      "name": "Tobias Jaster",
+      "email": "t.jaster@posteo.de",
+      "maintainer": true
+    }
+  ],
+  "license": "Apache-2.0",
+  "frameworks": "*",
+  "platforms": "*"
+}
