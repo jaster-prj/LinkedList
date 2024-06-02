@@ -373,7 +373,7 @@ retT *LL<retT>::remove(uint32_t loc)
         {
             _head = current->next;
             if(current->remove) {
-                delete current->data;
+                delete (retT*)current->data;
             }
             delete [] current;
             if(_head == 0) {
@@ -394,7 +394,7 @@ retT *LL<retT>::remove(uint32_t loc)
                 current->next->prv = prev;
             }
             if(current->remove) {
-                delete current->data;
+                delete (retT*)current->data;
             }
             delete [] current;
         }
